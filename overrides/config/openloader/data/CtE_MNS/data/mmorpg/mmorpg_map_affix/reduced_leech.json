@@ -1,0 +1,13 @@
+{
+  "affected": "Players",
+  "id": "reduced_leech",
+  "stats": [
+    {
+      "type": "MORE",
+      "max": -90.0,
+      "min": -50.0,
+      "stat": "inc_leech"
+    }
+  ],
+  "weight": 500
+}

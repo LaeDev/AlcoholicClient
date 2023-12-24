@@ -1,0 +1,33 @@
+{
+  "base_gear": "plate_chest",
+  "id": "golemancer",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 70.0,
+      "min": 50.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "flat",
+      "max": 35.0,
+      "min": 25.0,
+      "stat": "golem_spell_chance"
+    },
+    {
+      "type": "flat",
+      "max": 25.0,
+      "min": 10.0,
+      "stat": "summon_damage"
+    },
+    {
+      "type": "flat",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "fire_resist"
+    }
+  ],
+  "weight": 1000
+}

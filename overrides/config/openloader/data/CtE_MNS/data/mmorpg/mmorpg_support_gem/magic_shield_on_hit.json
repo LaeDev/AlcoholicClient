@@ -1,0 +1,16 @@
+{
+  "id": "magic_shield_on_hit",
+  "manaMulti": 1.2,
+  "min_lvl": 1,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 4.0,
+      "stat": "magic_shield_on_hit_hit"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

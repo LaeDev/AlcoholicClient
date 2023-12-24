@@ -1,0 +1,39 @@
+{
+  "base_gear": "bow",
+  "id": "chin_sol",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 100.0,
+      "min": 80.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "more",
+      "max": 25.0,
+      "min": 15.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "flat",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "dexterity"
+    },
+    {
+      "type": "flat",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "phys_to_fire"
+    },
+    {
+      "type": "flat",
+      "max": -50.0,
+      "min": -50.0,
+      "stat": "faster_projectiles"
+    }
+  ],
+  "weight": 1000
+}

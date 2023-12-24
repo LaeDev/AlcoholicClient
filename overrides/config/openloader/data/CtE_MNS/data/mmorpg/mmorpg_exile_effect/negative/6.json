@@ -1,0 +1,54 @@
+{
+  "type": "negative",
+  "id": "negative/6",
+  "max_stacks": 1,
+  "mc_stats": [
+    {
+      "type": "MORE",
+      "id": "minecraft:generic.movement_speed",
+      "uuid": "f0881524-9e81-4b7d-8b3a-633d7cb022d4",
+      "val": -0.25
+    },
+    {
+      "type": "MORE",
+      "id": "minecraft:generic.attack_speed",
+      "uuid": "829d69bd-8668-41de-994a-5345a69dfc92",
+      "val": -0.25
+    }
+  ],
+  "one_of_a_kind_id": "",
+  "spell": {
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 6.0,
+                "particle_type": "minecraft:poof",
+                "radius": 1.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ]
+    },
+    "on_cast": []
+  },
+  "stats": [],
+  "tags": [
+    "negative"
+  ]
+}

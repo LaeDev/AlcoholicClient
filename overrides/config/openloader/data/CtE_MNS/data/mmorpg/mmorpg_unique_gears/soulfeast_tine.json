@@ -1,0 +1,33 @@
+{
+  "base_gear": "spear",
+  "id": "soulfeast_tine",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 60.0,
+      "min": 40.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "flat",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "accuracy"
+    },
+    {
+      "type": "flat",
+      "max": 3.0,
+      "min": 2.0,
+      "stat": "lifesteal"
+    },
+    {
+      "type": "flat",
+      "max": 3.0,
+      "min": 2.0,
+      "stat": "manasteal"
+    }
+  ],
+  "weight": 1000
+}

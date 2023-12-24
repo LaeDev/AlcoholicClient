@@ -1,0 +1,25 @@
+{
+  "type": "beneficial",
+  "id": "beneficial/1",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 24.0,
+      "min": 8.0,
+      "stat": "armor"
+    },
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 10.0,
+      "stat": "elemental_resist"
+    }
+  ],
+  "tags": [
+    "positive",
+    "defensive"
+  ]
+}

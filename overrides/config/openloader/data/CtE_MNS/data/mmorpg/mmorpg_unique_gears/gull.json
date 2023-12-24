@@ -1,0 +1,21 @@
+{
+  "base_gear": "dagger",
+  "id": "gull",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "flat",
+      "max": 80.0,
+      "min": 60.0,
+      "stat": "magic_find"
+    },
+    {
+      "type": "flat",
+      "max": -5.0,
+      "min": -5.0,
+      "stat": "mana"
+    }
+  ],
+  "weight": 1000
+}

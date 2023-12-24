@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "#M#",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:spider_eye"
+    },
+	"A": {
+      "item": "minecraft:nether_star"
+    },
+	"M": {
+      "item": "mmorpg:stone/2"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:spider_gate_large"
+}

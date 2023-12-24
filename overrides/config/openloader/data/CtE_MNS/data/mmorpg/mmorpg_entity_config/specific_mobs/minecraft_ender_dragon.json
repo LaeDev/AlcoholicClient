@@ -1,0 +1,13 @@
+{
+  "dmg_multi": 1.0,
+  "exp_multi": 1.5,
+  "hp_multi": 0.01,
+  "identifier": "minecraft:ender_dragon",
+  "loot_multi": 1.5,
+  "max_lvl": 55,
+  "min_lvl": 55,
+  "stat_multi": 1.0,
+  "stats": {
+    "stats": []
+  }
+}

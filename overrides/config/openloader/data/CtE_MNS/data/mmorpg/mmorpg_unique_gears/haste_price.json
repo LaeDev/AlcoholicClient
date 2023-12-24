@@ -1,0 +1,33 @@
+{
+  "base_gear": "plate_boots",
+  "id": "haste_price",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 80.0,
+      "min": 60.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "flat",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "cdr"
+    },
+    {
+      "type": "flat",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "mana_cost"
+    },
+    {
+      "type": "percent",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "armor"
+    }
+  ],
+  "weight": 1000
+}

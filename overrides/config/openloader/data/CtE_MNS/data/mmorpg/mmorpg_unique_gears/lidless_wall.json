@@ -1,0 +1,45 @@
+{
+  "base_gear": "tome",
+  "id": "lidless_wall",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 40.0,
+      "min": 20.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "flat",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "spell_damage"
+    },
+    {
+      "type": "percent",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "mana"
+    },
+    {
+      "type": "flat",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "cast_speed"
+    },
+    {
+      "type": "flat",
+      "max": 3.0,
+      "min": 1.0,
+      "stat": "mana_on_kill"
+    },
+    {
+      "type": "flat",
+      "max": 3.0,
+      "min": 3.0,
+      "stat": "intelligence"
+    }
+  ],
+  "weight": 100
+}

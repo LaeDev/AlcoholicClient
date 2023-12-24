@@ -1,0 +1,13 @@
+{
+  "affected": "Mobs",
+  "id": "movespeed",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 35.0,
+      "min": 15.0,
+      "stat": "move_speed"
+    }
+  ],
+  "weight": 1000
+}

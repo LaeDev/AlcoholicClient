@@ -1,0 +1,46 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.4,
+      "min": 3.2,
+      "stat": "magic_shield"
+    }
+  ],
+  "gear_slot": "pants",
+  "guid": "cloth_pants",
+  "implicit_stats": [],
+  "possible_items": [
+    {
+      "item_id": "minecraft:leather_leggings",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "minecraft:netherite_leggings",
+      "min_rar": "mythic",
+      "weight": 10
+    }
+  ],
+  "req": {
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "armor_family",
+      "pants",
+      "magic_shield_stat",
+      "intelligence"
+    ]
+  },
+  "weapon_type": {
+    "id": "none",
+    "isProjectile": false,
+    "range": "MELEE",
+    "style": "INT"
+  },
+  "weight": 1000
+}

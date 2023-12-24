@@ -1,0 +1,76 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "weapon_damage"
+    },
+	{
+	  "type": "FLAT",
+	  "max": 12.0,
+	  "min": 9.0,
+	  "stat": "mana_on_basic_hit"
+	}
+  ],
+  "gear_slot": "axe",
+  "guid": "axe",
+  "implicit_stats": [
+		{
+		  "type": "FLAT",
+		  "max": 8.0,
+		  "min": 4.0,
+		  "stat": "critical_damage"
+		}
+	],
+  "possible_items": [
+    {
+      "item_id": "minecraft:wooden_axe",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "minecraft:stone_axe",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "minecraft:iron_axe",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "minecraft:diamond_axe",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "minecraft:netherite_axe",
+      "min_rar": "mythic",
+      "weight": 10000
+    }
+  ],
+  "req": {
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "warrior_casting_weapon",
+      "axe",
+      "strength",
+      "melee_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": {
+    "id": "axe",
+    "isProjectile": false,
+    "range": "MELEE",
+    "style": "STR"
+  },
+  "weight": 1000
+}

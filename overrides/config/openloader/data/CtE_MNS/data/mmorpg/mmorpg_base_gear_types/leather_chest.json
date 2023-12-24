@@ -1,0 +1,52 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 9.0,
+      "min": 4.5,
+      "stat": "dodge"
+    },
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "health"
+    }
+  ],
+  "gear_slot": "chest",
+  "guid": "leather_chest",
+  "implicit_stats": [],
+  "possible_items": [
+    {
+      "item_id": "minecraft:leather_chestplate",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "minecraft:netherite_chestplate",
+      "min_rar": "mythic",
+      "weight": 10
+    }
+  ],
+  "req": {
+    "scaling_req": {
+      "dexterity": 0.5
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "chest",
+      "armor_family"
+    ]
+  },
+  "weapon_type": {
+    "id": "none",
+    "isProjectile": false,
+    "range": "MELEE",
+    "style": "DEX"
+  },
+  "weight": 1000
+}

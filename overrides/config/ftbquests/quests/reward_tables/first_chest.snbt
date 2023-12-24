@@ -1,0 +1,52 @@
+{
+	icon: {
+		Count: 1b
+		id: "minecraft:iron_chestplate"
+		tag: {
+			Damage: 0
+			mmorpg_gear: "{\"baseStats\":{\"p\":100},\"imp\":{\"p\":11},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":17,\"id\":\"seraphim\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":5,\"rs\":2,\"lvl\":1,\"gtype\":\"plate_chest\",\"pot\":\"common\",\"pn\":100}"
+		}
+	}
+	id: "622C723AF9BE0433"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":100},\"imp\":{\"p\":11},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":17,\"id\":\"seraphim\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":5,\"rs\":2,\"lvl\":1,\"gtype\":\"plate_chest\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+			title: "Plate Chest"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:leather_chestplate"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":17},\"imp\":{\"p\":45},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":2,\"id\":\"item_flat_dodge\",\"t\":1,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":3,\"rs\":2,\"lvl\":1,\"gtype\":\"leather_chest\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+			title: "Leather Chest"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:leather_chestplate"
+				tag: {
+					Damage: 0
+					display: {
+						color: 16383998
+					}
+					mmorpg_gear: "{\"baseStats\":{\"p\":17},\"imp\":{\"p\":52},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":0,\"id\":\"glimmering\",\"t\":1,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":0,\"rs\":3,\"lvl\":1,\"gtype\":\"cloth_chest\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+			title: "Cloth Chest"
+		}
+	]
+	title: "First Chest"
+}

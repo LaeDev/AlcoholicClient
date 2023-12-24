@@ -1,0 +1,6 @@
+mmorpg:mmorpg.gui=0.0,0.0,1.0,1.0,0.0
+minecraft:vignette=0.0,0.0,1.0,1.0,0.0
+pmmo:stats_overlay=0.0,0.0,1.0,1.0,0.0
+patchouli:multiblock_progress=0.0,0.0,1.0,1.0,0.0
+patchouli:book_right_click=0.0,0.0,1.0,1.0,0.0
+pmmo:overlay_icons=0.0,0.0,1.0,1.0,0.0

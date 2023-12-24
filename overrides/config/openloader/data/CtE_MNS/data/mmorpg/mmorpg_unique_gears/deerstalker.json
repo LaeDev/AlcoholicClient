@@ -1,0 +1,33 @@
+{
+  "base_gear": "leather_boots",
+  "id": "deerstalker",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 80.0,
+      "min": 60.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "flat",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "health"
+    },
+    {
+      "type": "flat",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "trap_damage"
+    },
+    {
+      "type": "flat",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "trap_cdr"
+    }
+  ],
+  "weight": 1000
+}

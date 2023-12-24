@@ -1,0 +1,39 @@
+{
+  "base_gear": "sword",
+  "id": "cospris_malice",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 60.0,
+      "min": 40.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "flat",
+      "max": 100.0,
+      "min": 100.0,
+      "stat": "phys_to_water"
+    },
+    {
+      "type": "flat",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "all_water_damage"
+    },
+    {
+      "type": "percent",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "energy_regen"
+    },
+    {
+      "type": "flat",
+      "max": 50.0,
+      "min": 30.0,
+      "stat": "freeze_damage"
+    }
+  ],
+  "weight": 100
+}

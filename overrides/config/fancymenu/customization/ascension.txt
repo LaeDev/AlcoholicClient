@@ -1,0 +1,47 @@
+type = menu
+
+customization-meta {
+  identifier = com.robertx22.age_of_exile.gui.screens.spell.AscendancyClassScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui;com.robertx22.age_of_exile.gui.screens.character_screen.MainHubScreen%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/images/leftright-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -124
+  width = 24
+  action = addbutton
+  actionid = ae608564-1be9-4693-810a-0bd426f7b59e1694668977817
+  y = -141
+  backgroundnormal = config/fancymenu/images/leftright.png
+  height = 24
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/images/extra_info_button.png
+  description = Allocate points in this skill%n%tree to select your class.%n%You can have up to two%n%classes selected, thereby%n%allowing "dual-specs".%n%%n%Higher levels in a skill will%n%increase its potency, and%n%provide more slots for%n%&5Support Gems&r.
+  label = 
+  loopbackgroundanimations = true
+  x = 101
+  width = 24
+  action = addbutton
+  actionid = 1513280d-92e9-465b-a86c-25fad1051ca81694668977817
+  y = -141
+  backgroundnormal = config/fancymenu/images/extra_info_button.png
+  height = 24
+}
+

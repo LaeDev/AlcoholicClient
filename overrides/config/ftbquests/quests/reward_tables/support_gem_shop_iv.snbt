@@ -1,0 +1,68 @@
+{
+	id: "3C4838074D6D3B98"
+	loot_size: 1
+	order_index: 34
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"crit_dmg_less_non_crit_dmg\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Confident Ruin Support Gem"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"rare_cooldown\",\"type\":\"SUPPORT\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Greater Cooldown Support Gem"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"gmp_barrage\",\"type\":\"SUPPORT\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Greater Barrage Projectiles Support Gem"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"rare_mana_eff\",\"type\":\"SUPPORT\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Greater Mana Cost Support Gem"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"gmp\",\"type\":\"SUPPORT\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Greater Multiple Projectiles Support Gem"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"spell_damage\",\"type\":\"SUPPORT\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Spell Damage Support Gem"
+		}
+	]
+	title: "Support Gem Shop IV"
+}

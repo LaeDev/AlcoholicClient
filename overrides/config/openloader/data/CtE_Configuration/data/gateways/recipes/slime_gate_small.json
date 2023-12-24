@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    " M ",
+    "#A#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:slime_ball"
+    },
+	"A": {
+      "item": "minecraft:ender_pearl"
+    },
+	"M": {
+      "item": "mmorpg:stone/0"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:slime_gate_small"
+}

@@ -1,0 +1,33 @@
+{
+  "base_gear": "crossbow",
+  "id": "doomslinger",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 100.0,
+      "min": 60.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "flat",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "armor_penetration"
+    },
+    {
+      "type": "percent",
+      "max": 30.0,
+      "min": 30.0,
+      "stat": "energy_regen"
+    },
+    {
+      "type": "flat",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "health"
+    }
+  ],
+  "weight": 1000
+}

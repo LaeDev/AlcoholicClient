@@ -1,0 +1,45 @@
+{
+  "base_gear": "crossbow",
+  "id": "ichorstring",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 50.0,
+      "min": 30.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "flat",
+      "max": 50.0,
+      "min": 50.0,
+      "stat": "phys_to_chaos"
+    },
+    {
+      "type": "flat",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "poison_chance"
+    },
+    {
+      "type": "flat",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "poison_damage"
+    },
+    {
+      "type": "flat",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "chaos_penetration"
+    },
+    {
+      "type": "flat",
+      "max": 3.0,
+      "min": 2.0,
+      "stat": "dexterity"
+    }
+  ],
+  "weight": 1000
+}

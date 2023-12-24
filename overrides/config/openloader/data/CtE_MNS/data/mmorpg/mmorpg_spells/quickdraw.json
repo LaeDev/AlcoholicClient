@@ -1,0 +1,82 @@
+{
+  "attached": {
+    "entity_components": {},
+    "on_cast": [
+      {
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "pitch": 1.0,
+              "sound": "minecraft:entity.wolf.howl",
+              "volume": 1.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "potion",
+            "map": {
+              "count": 1.0,
+              "potion_action": "GIVE_STACKS",
+              "potion_dur": 120.0,
+              "potion_id": "mmorpg:instant_arrows",
+              "potion_str": 16.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ]
+      }
+    ]
+  },
+  "config": {
+    "apply_cast_speed_to_cd": false,
+    "cast_time_ticks": 0,
+    "castingWeapon": "RANGED",
+    "charge_name": "",
+    "charge_regen": 0,
+    "charges": 0,
+    "cooldown_ticks": 400,
+    "imbues": 0,
+    "mana_cost": {
+      "max": 7.0,
+      "min": 5.0
+    },
+    "style": "dex",
+    "summonType": "NONE",
+    "swing_arm": true,
+    "tags": [
+	],
+    "times_to_cast": 1
+  },
+  "disabled_dims": [],
+  "effect_tip": "",
+  "identifier": "quickdraw",
+  "manual_tip": true,
+  "max_lvl": 16,
+  "min_lvl": 10,
+  "statsForSkillGem": [],
+  "weight": 1000
+}

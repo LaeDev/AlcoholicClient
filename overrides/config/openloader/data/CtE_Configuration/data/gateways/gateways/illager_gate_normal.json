@@ -1,0 +1,178 @@
+{
+    "size": "medium",
+    "color": "#FF0000",
+    "waves": [{
+            "entities": [{
+                    "entity": "minecraft:pillager"
+                },
+                {
+                    "entity": "minecraft:pillager"
+                },
+                {
+                    "entity": "minecraft:vindicator"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:pillager",
+                "rolls": 2
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:pillager"
+                },
+                {
+                    "entity": "illagerinvasion:basher"
+                },
+                {
+                    "entity": "minecraft:pillager"
+                },
+                {
+                    "entity": "minecraft:vindicator"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:pillager",
+                "rolls": 3
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:pillager"
+                },
+                {
+                    "entity": "minecraft:vindicator"
+                },
+                {
+                    "entity": "minecraft:pillager"
+                },
+				{
+                    "entity": "illagerinvasion:basher"
+                },
+                {
+                    "entity": "illagerinvasion:marauder"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:pillager",
+                "rolls": 3
+            },
+			{
+                "type": "entity_loot",
+                "entity": "minecraft:vindicator",
+                "rolls": 2
+            }
+			],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "illagerinvasion:alchemist"
+                },
+                {
+                    "entity": "illagerinvasion:basher"
+                },
+                {
+                    "entity": "minecraft:vindicator"
+                },
+				{
+                    "entity": "minecraft:pillager"
+                },
+                {
+                    "entity": "illagerinvasion:provoker"
+                },
+                {
+                    "entity": "minecraft:pillager"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:pillager",
+                "rolls": 3
+            },
+			{
+                "type": "entity_loot",
+                "entity": "minecraft:vindicator",
+                "rolls": 3
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "illagerinvasion:sorcerer"
+                },
+                {
+                    "entity": "illagerinvasion:archivist"
+                },
+				{
+                    "entity": "illagerinvasion:sorcerer"
+                },
+                {
+                    "entity": "illagerinvasion:archivist"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "illagerinvasion:archivist",
+                "rolls": 3
+            },
+			{
+                "type": "entity_loot",
+                "entity": "illagerinvasion:sorcerer",
+                "rolls": 3
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:illusioner"
+                },
+                {
+                    "entity": "illagerinvasion:inquisitor"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:illusioner",
+                "rolls": 1
+            },
+			{
+                "type": "entity_loot",
+                "entity": "illagerinvasion:inquisitor",
+                "rolls": 1
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "illagerinvasion:invoker"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "illagerinvasion:invoker",
+                "rolls": 1
+            }],
+            "max_wave_time": 900,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+        "type": "entity_loot",
+        "entity": "minecraft:pillager",
+        "rolls": 5
+    }],
+    "completion_xp": 750,
+	"spawn_range": 7
+}

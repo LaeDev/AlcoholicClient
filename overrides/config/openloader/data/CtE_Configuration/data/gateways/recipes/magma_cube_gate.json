@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "#M#",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magma_cream"
+    },
+	"A": {
+      "item": "minecraft:ender_eye"
+    },
+	"M": {
+      "item": "mmorpg:stone/1"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:magma_cube_gate_normal"
+}

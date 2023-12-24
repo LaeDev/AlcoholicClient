@@ -1,0 +1,27 @@
+{
+  "base_gear": "necklace",
+  "id": "sidhebreath",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "flat",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "water_resist"
+    },
+    {
+      "type": "flat",
+      "max": 25.0,
+      "min": 15.0,
+      "stat": "summon_health"
+    },
+    {
+      "type": "flat",
+      "max": 60.0,
+      "min": 40.0,
+      "stat": "summon_duration"
+    }
+  ],
+  "weight": 1000
+}

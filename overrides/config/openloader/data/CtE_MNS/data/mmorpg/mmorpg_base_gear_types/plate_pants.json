@@ -1,0 +1,62 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "armor"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.2,
+      "min": 1.6,
+      "stat": "health"
+    }
+  ],
+  "gear_slot": "pants",
+  "guid": "plate_pants",
+  "implicit_stats": [],
+  "possible_items": [
+    {
+      "item_id": "minecraft:chainmail_leggings",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "minecraft:iron_leggings",
+      "min_rar": "rare",
+      "weight": 10
+    },
+    {
+      "item_id": "minecraft:diamond_leggings",
+      "min_rar": "legendary",
+      "weight": 100
+    },
+    {
+      "item_id": "minecraft:netherite_leggings",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "armor_family",
+      "pants",
+      "strength",
+      "armor_stat"
+    ]
+  },
+  "weapon_type": {
+    "id": "none",
+    "isProjectile": false,
+    "range": "MELEE",
+    "style": "STR"
+  },
+  "weight": 1000
+}

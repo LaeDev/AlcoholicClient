@@ -1,0 +1,19 @@
+{
+  "affected": "Mobs",
+  "id": "reflect",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 10.0,
+      "stat": "damage_reflected"
+    },
+    {
+      "type": "MORE",
+      "max": 30.0,
+      "min": 10.0,
+      "stat": "armor"
+    }
+  ],
+  "weight": 500
+}

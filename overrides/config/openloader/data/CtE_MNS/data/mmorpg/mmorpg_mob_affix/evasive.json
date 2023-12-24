@@ -1,0 +1,21 @@
+{
+  "type": "prefix",
+  "format": "YELLOW",
+  "icon": "",
+  "id": "evasive",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 100.0,
+      "min": 100.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "MORE",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "dodge"
+    }
+  ],
+  "weight": 1000
+}

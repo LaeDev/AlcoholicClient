@@ -1,0 +1,47 @@
+type = menu
+
+customization-meta {
+  identifier = com.robertx22.age_of_exile.gui.screens.skill_tree.TalentsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;com.robertx22.age_of_exile.gui.screens.character_screen.MainHubScreen%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/images/leftright-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 4
+  width = 24
+  action = addbutton
+  actionid = 16aaa1fe-bdbc-4b1b-84fc-29443cca2a271694668799613
+  y = 4
+  backgroundnormal = config/fancymenu/images/leftright.png
+  height = 24
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/images/extra_info_button.png
+  description = Allocate talent points to increase%n%your power level. Some &lGame Changer&r%n%talents can make or break your%n%build! Allocate points into Jewel Sockets%n%and unlock slots in the Jewel GUI!
+  label = 
+  loopbackgroundanimations = true
+  x = -28
+  width = 24
+  action = addbutton
+  actionid = 10bdbb9c-f041-427b-9e1f-9ebdcd9e867d1694668799613
+  y = 4
+  backgroundnormal = config/fancymenu/images/extra_info_button.png
+  height = 24
+}
+

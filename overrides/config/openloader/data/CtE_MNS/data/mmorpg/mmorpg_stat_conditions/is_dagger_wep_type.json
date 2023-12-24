@@ -1,0 +1,10 @@
+{
+  "type": {
+    "id": "dagger",
+    "isProjectile": false,
+    "range": "MELEE",
+    "style": "INT"
+  },
+  "id": "is_dagger_wep_type",
+  "ser": "wep_type_match"
+}

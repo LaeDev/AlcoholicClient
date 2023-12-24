@@ -1,0 +1,16 @@
+{
+  "id": "mana_on_hit",
+  "manaMulti": 1.2,
+  "min_lvl": 1,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 4.0,
+      "min": 2.0,
+      "stat": "mana_on_hit_hit"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

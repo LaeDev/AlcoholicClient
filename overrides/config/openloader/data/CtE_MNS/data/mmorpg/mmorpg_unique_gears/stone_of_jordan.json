@@ -1,0 +1,21 @@
+{
+  "base_gear": "ring",
+  "id": "stone_of_jordan",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "flat",
+      "max": 40.0,
+      "min": 30.0,
+      "stat": "spell_damage"
+    },
+    {
+      "type": "percent",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "mana"
+    }
+  ],
+  "weight": 25
+}

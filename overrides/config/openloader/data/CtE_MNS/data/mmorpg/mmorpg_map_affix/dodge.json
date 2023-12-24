@@ -1,0 +1,13 @@
+{
+  "affected": "Mobs",
+  "id": "dodge",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 120.0,
+      "min": 60.0,
+      "stat": "dodge"
+    }
+  ],
+  "weight": 1000
+}

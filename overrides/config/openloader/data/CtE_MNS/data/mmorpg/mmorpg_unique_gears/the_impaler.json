@@ -1,0 +1,27 @@
+{
+  "base_gear": "spear",
+  "id": "the_impaler",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 50.0,
+      "min": 30.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "flat",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "armor_penetration"
+    },
+    {
+      "type": "percent",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "energy_regen"
+    }
+  ],
+  "weight": 1000
+}

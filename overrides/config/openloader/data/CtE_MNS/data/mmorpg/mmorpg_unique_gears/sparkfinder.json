@@ -1,0 +1,27 @@
+{
+  "base_gear": "leather_boots",
+  "id": "sparkfinder",
+  "rarity": "runeword",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 50.0,
+      "min": 25.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "percent",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "magic_find"
+    },
+    {
+      "type": "percent",
+      "max": 35.0,
+      "min": 25.0,
+      "stat": "lightning_resist"
+    }
+  ],
+  "weight": 0
+}

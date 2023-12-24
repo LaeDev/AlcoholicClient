@@ -1,0 +1,291 @@
+{
+    "size": "large",
+    "color": "#7EBF6E",
+    "waves": [{
+            "entities": [{
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+				{
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:slime",
+				"nbt": "{\"Size\": 0}",
+                "rolls": 5
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+				{
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:slime",
+				"nbt": "{\"Size\": 0}",
+                "rolls": 6
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+				{
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:slime",
+				"nbt": "{\"Size\": 0}",
+                "rolls": 7
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+				{
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:slime",
+				"nbt": "{\"Size\": 0}",
+                "rolls": 8
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+				{
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime"
+                },
+                {
+                    "entity": "minecraft:slime",
+					"nbt": "{\"Size\": 8}"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.20
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.20
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.20
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.20
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:slime",
+				"nbt": "{\"Size\": 0}",
+                "rolls": 9
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+        "type": "entity_loot",
+        "entity": "minecraft:slime",
+		"nbt": "{\"Size\": 0}",
+        "rolls": 10
+    },
+	{
+		"type": "stack",
+		"stack": {
+			"item": "minecraft:nether_star"
+		}
+	}],
+    "completion_xp": 1250,
+	"spawn_range": 9
+}

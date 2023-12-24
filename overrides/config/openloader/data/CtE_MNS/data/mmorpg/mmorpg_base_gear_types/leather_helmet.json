@@ -1,0 +1,52 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 4.0,
+      "min": 2.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 1.0,
+      "stat": "health"
+    }
+  ],
+  "gear_slot": "helmet",
+  "guid": "leather_helmet",
+  "implicit_stats": [],
+  "possible_items": [
+    {
+      "item_id": "minecraft:leather_helmet",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "minecraft:netherite_helmet",
+      "min_rar": "mythic",
+      "weight": 10
+    }
+  ],
+  "req": {
+    "scaling_req": {
+      "dexterity": 0.5
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "armor_family",
+      "helmet"
+    ]
+  },
+  "weapon_type": {
+    "id": "none",
+    "isProjectile": false,
+    "range": "MELEE",
+    "style": "DEX"
+  },
+  "weight": 1000
+}

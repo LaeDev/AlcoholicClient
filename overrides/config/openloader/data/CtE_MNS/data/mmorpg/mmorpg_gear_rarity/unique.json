@@ -1,0 +1,37 @@
+{
+  "announce_in_chat": true,
+  "favor_loot_multi": 1.0,
+  "favor_needed": 0,
+  "guid": "unique",
+  "higher_rar": "",
+  "is_unique_item": true,
+  "item_model_data_num": -1,
+  "item_tier": 5,
+  "item_tier_power": 1.5,
+  "item_value_multi": 1.5,
+  "lootable_gear_tier": "HIGH",
+  "max_sockets": 3,
+  "max_spell_links": 1,
+  "min_affixes": 0,
+  "min_lvl": 0,
+  "mob": {
+    "affixes": 3,
+    "dmg_multi": 2.5,
+    "exp_multi": 12.0,
+    "extra_hp_multi": 8.0,
+    "loot_multi": 14.0,
+    "min_lvl": 0,
+    "stat_multi": 3.0
+  },
+  "pot": {
+    "multi": 5.0,
+    "total": 100
+  },
+  "socket_chance": 20,
+  "stat_percents": {
+    "max": 0,
+    "min": 0
+  },
+  "text_format": "RED",
+  "weight": 1
+}

@@ -1,0 +1,63 @@
+type = menu
+
+customization-meta {
+  identifier = com.robertx22.age_of_exile.gui.screens.character_screen.MainHubScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/images/extra_info_button.png
+  description = Hover over these books in the GUI%n%to learn more!
+  label = 
+  loopbackgroundanimations = true
+  x = 103
+  width = 24
+  action = addbutton
+  actionid = d5487db4-a7c6-423d-8fd5-4abcaf6711a81694669440702
+  y = -114
+  backgroundnormal = config/fancymenu/images/extra_info_button.png
+  height = 24
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/images/jewel_info.png
+  description = Jewels can be placed into these slots%n%once points have been allocated to%n%Jewel Sockets on the Talent Tree. Jewels%n%give you an additional way of enhancing%n%your character.
+  label = 
+  loopbackgroundanimations = true
+  x = 77
+  width = 24
+  action = addbutton
+  actionid = 390e6253-a2a6-4a2c-ac42-40a1594f1bbc1694797288656
+  y = -114
+  backgroundnormal = config/fancymenu/images/jewel_info.png
+  height = 24
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/images/extra_info_button.png
+  description = Salvaging is a vital process in%n%Mine and Slash. Here, you can%n%select which rarity of item will%n%automatically be salvaged (upon%n%pick up) into useful crafting %n%materials to be used later.%n%%n%&c&lNote:&r&c items salvaged from the%n%&cauto-salvaging system will not%n%&cgive Profession crafting%n%&cmaterials such as Essences!
+  label = 
+  loopbackgroundanimations = true
+  x = -152
+  width = 24
+  action = addbutton
+  actionid = 1a0ffdf4-4e3c-4f92-b83a-283b809027a91696396287226
+  y = -13
+  backgroundnormal = config/fancymenu/images/extra_info_button.png
+  height = 24
+}
+

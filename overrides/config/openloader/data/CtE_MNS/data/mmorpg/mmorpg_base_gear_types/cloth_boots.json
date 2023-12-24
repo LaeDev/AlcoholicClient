@@ -1,0 +1,46 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 4.0,
+      "min": 2.0,
+      "stat": "magic_shield"
+    }
+  ],
+  "gear_slot": "boots",
+  "guid": "cloth_boots",
+  "implicit_stats": [],
+  "possible_items": [
+    {
+      "item_id": "minecraft:leather_boots",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "minecraft:netherite_boots",
+      "min_rar": "mythic",
+      "weight": 10
+    }
+  ],
+  "req": {
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "armor_family",
+      "magic_shield_stat",
+      "boots",
+      "intelligence"
+    ]
+  },
+  "weapon_type": {
+    "id": "none",
+    "isProjectile": false,
+    "range": "MELEE",
+    "style": "INT"
+  },
+  "weight": 1000
+}

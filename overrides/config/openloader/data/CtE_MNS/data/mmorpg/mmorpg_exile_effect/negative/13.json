@@ -1,0 +1,60 @@
+{
+  "type": "negative",
+  "id": "negative/13",
+  "max_stacks": 3,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell": {
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 6.0,
+                "particle_type": "minecraft:effect",
+                "radius": 1.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ]
+    },
+    "on_cast": []
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": -25.0,
+      "min": -10.0,
+      "stat": "armor"
+    },
+    {
+      "type": "FLAT",
+      "max": -3.0,
+      "min": -1.0,
+      "stat": "elemental_resist"
+    },
+    {
+      "type": "PERCENT",
+      "max": -5.0,
+      "min": -2.0,
+      "stat": "armor"
+    }
+  ],
+  "tags": [
+    "negative"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "base_gear": "hammer",
+  "id": "mjolner",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 60.0,
+      "min": 40.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "flat",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "chaining_spell_dmg"
+    },
+    {
+      "type": "flat",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "mana_cost"
+    },
+    {
+      "type": "flat",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "all_lightning_damage"
+    }
+  ],
+  "weight": 200
+}

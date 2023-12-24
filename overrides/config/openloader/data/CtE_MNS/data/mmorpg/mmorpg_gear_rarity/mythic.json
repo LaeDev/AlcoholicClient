@@ -1,0 +1,38 @@
+{
+  "affix_rarity_weight": 1000,
+  "announce_in_chat": true,
+  "favor_loot_multi": 1.05,
+  "favor_needed": 250,
+  "guid": "mythic",
+  "higher_rar": "",
+  "is_unique_item": false,
+  "item_model_data_num": 6,
+  "item_tier": 5,
+  "item_tier_power": 1.5,
+  "item_value_multi": 1.5,
+  "lootable_gear_tier": "HIGH",
+  "max_sockets": 3,
+  "max_spell_links": 5,
+  "min_affixes": 6,
+  "min_lvl": 50,
+  "mob": {
+    "affixes": 3,
+    "dmg_multi": 2.0,
+    "exp_multi": 10.0,
+    "extra_hp_multi": 6.0,
+    "loot_multi": 10.0,
+    "min_lvl": 50,
+    "stat_multi": 2.5
+  },
+  "pot": {
+    "multi": 2.0,
+    "total": 100
+  },
+  "socket_chance": 75,
+  "stat_percents": {
+    "max": 100,
+    "min": 85
+  },
+  "text_format": "DARK_PURPLE",
+  "weight": 3
+}

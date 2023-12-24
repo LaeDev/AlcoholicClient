@@ -1,0 +1,33 @@
+{
+  "base_gear": "dagger",
+  "id": "wizardspike",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "flat",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "cast_speed"
+    },
+    {
+      "type": "percent",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "mana_regen"
+    },
+    {
+      "type": "percent",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "mana"
+    },
+    {
+      "type": "flat",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "elemental_resist"
+    }
+  ],
+  "weight": 200
+}

@@ -1,0 +1,47 @@
+type = menu
+
+customization-meta {
+  identifier = com.robertx22.age_of_exile.capability.player.container.SkillGemsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui;com.robertx22.age_of_exile.gui.screens.character_screen.MainHubScreen%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/images/leftright-hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -115
+  width = 24
+  action = addbutton
+  actionid = bed84705-78e3-4dfb-b7b8-51923330213a1694668050304
+  y = -153
+  backgroundnormal = config/fancymenu/images/leftright.png
+  height = 24
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/images/extra_info_button.png
+  description = Select your Skills in the slots below! The &9blue&f%n%slots contain your Skills, and the &5purple&f slots%n%below can hold Support Gems which modify or%n%improve the linked Skill. Make sure to check how%n%many Support Gems the Skill can be linked to under%n%&5Support Slots&f.%n%%n%The &eyellow&f slots can hold Aura Gems, which cost%n%a passive amount of Aura Capacity, but give you%n%powerful bonuses!%n%%n%Support and Aura Gems also have a minimum level%n%required to equip them.%n%%n%By default, to switch between Skill sets press%n%CAPS lock!
+  label = 
+  loopbackgroundanimations = true
+  x = 91
+  width = 24
+  action = addbutton
+  actionid = 8daf4389-5a54-49d4-8377-17397e8281c21694668099477
+  y = -153
+  backgroundnormal = config/fancymenu/images/extra_info_button.png
+  height = 24
+}
+

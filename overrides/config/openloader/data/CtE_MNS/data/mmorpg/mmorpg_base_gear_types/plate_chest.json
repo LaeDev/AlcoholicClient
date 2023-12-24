@@ -1,0 +1,62 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 7.5,
+      "min": 3.25,
+      "stat": "armor"
+    },
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "health"
+    }
+  ],
+  "gear_slot": "chest",
+  "guid": "plate_chest",
+  "implicit_stats": [],
+  "possible_items": [
+    {
+      "item_id": "minecraft:chainmail_chestplate",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "minecraft:iron_chestplate",
+      "min_rar": "rare",
+      "weight": 10
+    },
+    {
+      "item_id": "minecraft:diamond_chestplate",
+      "min_rar": "legendary",
+      "weight": 100
+    },
+    {
+      "item_id": "minecraft:netherite_chestplate",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "chest",
+      "armor_family",
+      "strength",
+      "armor_stat"
+    ]
+  },
+  "weapon_type": {
+    "id": "none",
+    "isProjectile": false,
+    "range": "MELEE",
+    "style": "STR"
+  },
+  "weight": 1000
+}

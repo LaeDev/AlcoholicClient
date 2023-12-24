@@ -1,0 +1,52 @@
+{
+	icon: {
+		Count: 1b
+		id: "minecraft:iron_helmet"
+		tag: {
+			Damage: 0
+			mmorpg_gear: "{\"baseStats\":{\"p\":57},\"imp\":{\"p\":91},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":10,\"id\":\"seraphim\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":4,\"rs\":0,\"lvl\":1,\"gtype\":\"plate_helmet\",\"pot\":\"common\",\"pn\":100}"
+		}
+	}
+	id: "785B9A3ACA6307BA"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:iron_helmet"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":57},\"imp\":{\"p\":91},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":10,\"id\":\"seraphim\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":4,\"rs\":0,\"lvl\":1,\"gtype\":\"plate_helmet\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+			title: "Plate Helmet"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:leather_helmet"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":11},\"imp\":{\"p\":71},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":14,\"id\":\"item_both_dodge\",\"t\":2,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":1,\"rs\":1,\"lvl\":1,\"gtype\":\"leather_helmet\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+			title: "Leather Helmet"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:leather_helmet"
+				tag: {
+					Damage: 0
+					display: {
+						color: 16383998
+					}
+					mmorpg_gear: "{\"baseStats\":{\"p\":16},\"imp\":{\"p\":85},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":9,\"id\":\"seraphim\",\"t\":1,\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0},\"data\":{\"map\":{}},\"rar\":\"common\",\"rp\":3,\"rs\":1,\"lvl\":1,\"gtype\":\"cloth_helmet\",\"pot\":\"common\",\"pn\":100}"
+				}
+			}
+			title: "Cloth Helmet"
+		}
+	]
+	title: "First Helmet"
+}

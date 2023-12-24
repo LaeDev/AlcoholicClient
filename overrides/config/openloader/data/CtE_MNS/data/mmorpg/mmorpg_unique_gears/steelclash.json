@@ -1,0 +1,27 @@
+{
+  "base_gear": "shield",
+  "id": "steelclash",
+  "rarity": "unique",
+  "replaces_name": true,
+  "unique_stats": [
+    {
+      "type": "percent",
+      "max": 60.0,
+      "min": 40.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "flat",
+      "max": 10.0,
+      "min": 7.0,
+      "stat": "block_chance"
+    },
+    {
+      "type": "flat",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "elemental_resist"
+    }
+  ],
+  "weight": 1000
+}
